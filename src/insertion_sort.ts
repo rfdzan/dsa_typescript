@@ -1,4 +1,8 @@
 export {insertionSort};
+/** a sorting algorithm that shifts members of an array
+* by comparing them to a temporary value 'taken' from the array
+* until the array is sorted.
+*/
 function insertionSort(arr: number[]) {
   for (let idx = 1; idx < arr.length; idx++) {
     //the value being temporarily 'taken' from
