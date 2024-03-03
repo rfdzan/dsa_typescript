@@ -4,7 +4,7 @@ interface ReturnValue {
   idx: number;
   st: number;
 }
-/** A function that does binary search.*/
+/**A search algorithm that is O(log N)*/
 function binary_search(arr: number[], needle: number) {
   let steps = 0;
   let lowerBound = 0;
